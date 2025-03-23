@@ -1,0 +1,34 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment and system files
+.env
+.DS_Store
+Thumbs.db
+
+# Ignore test output or logs
+*.log
+*.out
+*.err
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore generated files
+*.bak
+*.swp
+
+# Ignore JSON feedback files (optional, if they are generated)
+feedback.json
+scores.json
+scores-detail.json
+
+# Ignore audio files and large datasets (if not needed in the repo)
+speechocean762-main/
