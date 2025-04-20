@@ -1,39 +1,3 @@
-# personalized_feedback-generation
-# Pronunciation Feedback Project
-A RAG-based system for generating personalized pronunciation feedback using speechocean762 data.
-
-## Setup
-1. Create venv: `python3 -m venv venv`
-2. Activate: `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows)
-3. Install deps: `pip install -r requirements.txt`
-4. Run: `python main.py`
-
-## Features
-- Analyzes scores from speechocean762 dataset.
-- Provides personalized feedback with improvement tips.
-
-Repo structure:
-pronunciation_feedback_project/
-├── venv/                  # Virtual environment
-├── data/                  # Store your dataset and dummy DB
-│   ├── speechocean762/    # Extracted ZIP contents (e.g., scores.json)
-│   └── dummy_db.json      # Our dummy database
-├── src/                   # Source code
-│   ├── __init__.py
-│   ├── rag_setup.py       # RAG retrieval and embedding logic
-│   ├── feedback_gen.py    # Feedback generation logic
-│   └── database.py        # Database handling
-├── README.md              # Project documentation
-└── main.py                # Entry point
-
- download the apeechocean dataset and put it in data folder
-
-I'm glad you're happy with the outcome! Since the script is working well with input validation and you don't need batch processing right now, I'll focus on creating a detailed `README.md` file with documentation for your pronunciation feedback project. The documentation will include an overview of the project, setup instructions, usage examples, file structure, and details about the input validation and output.
-
-Below is the `README.md` content written in Markdown (`.md`) format. You can copy this into a `README.md` file in your project directory.
-
----
-
 # Pronunciation Feedback Project
 
 ## Overview
